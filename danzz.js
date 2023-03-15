@@ -845,7 +845,7 @@ ${symbol2} ${prefix}delete (msg) Ⓞ`
                     buttons: buttons,
                     headerType: 4
                 }
-                danzz.sendMessage(m.chat, {text: menunya},{ quoted: ftroli })
+              return m.reply(menunya)
         }
         
         break
